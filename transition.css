@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+cointainer{
+    position: relative;
+    top: 4vw;
+
+    margin: auto;
+    height: 38vw;
+    width: 63vw;
+    border: 3px solid black;
+box-shadow: 10px 7px 17px rgba(0, 0, 0, 0.3); 
+display: flex;
+justify-content: center;
+
+}
+leftside{
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    
+    
+    
+    
+   
+}
+rightside{
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    position:relative;
+    
+}
+.signin{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: bold ;
+    font-size: 30px;
+    padding-top: 6vw;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-top: 1vw;
+    margin-top: 40px;
+    height: 1vw;
+    min-width: 25vw;
+    margin-bottom: 64px;
+    
+}
+.facebook{
+    height: 3vw;
+    width: 3vw;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+    cursor: pointer; 
+}
+.sign{
+    text-align: center;
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    opacity: 0.6;
+    word-spacing: 8px;
+}
+legend{
+    opacity: 0.4;
+   margin-left: 7vw;
+   margin-top: 3vw;
+   
+    justify-content: center;
+    align-items: center;
+}
+.leg{
+    margin-top: 20px;
+}
+.leg input{
+    width: 17vw;
+    height: 28px;
+    background-color: rgb(184, 173, 173);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    
+}
+.leg input:placeholder{
+    color: rgb(11, 11, 11);
+    background-color: black;
+}
+.max{
+    text-align: center;
+    margin-top: 25px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.max input{
+    height: 2.6vw;
+    width: 9vw;
+    border-radius: 20px;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: rgb(255, 0, 0);
+    opacity: 100;
+    cursor: pointer;
+   
+}
+right{
+    
+    transition-delay: 4s;
+}
+left{
+    display: none;
+    transition-delay: 4s;
+}
+.opacity{
+    opacity: 1;
+}
+max{position: absolute;
+    right: 1px;
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    z-index: 1;
+    background-color: rgb(237, 68, 167);
+    
+    
+    transition: all 3s ease-in-out;
+}
+.overlay{
+    transform: translateX(-100%);
+    
+}
+.book{
+    text-align: center;
+    font-weight: bold;
+    color: antiquewhite;
+    font-family: "Rowdies", sans-serif;
+    font-size: 55px;
+    margin-top:  11.6vw;
+
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    color: antiquewhite;
+    font-family: "Rowdies", sans-serif;
+    font-size: 20px;
+    margin-top:  1vw;
+}
+.p input{
+    height: 2.6vw;
+    width: 9vw;
+    border-radius: 20px;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: rgb(237, 68, 167);
+    opacity: 100;
+    margin-top: 2vw;
+    margin-left: 12vw;
+    cursor: pointer;
+}
